@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate Program</title>
+    <!-- Icons Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="translate.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="input">
+                <textarea name="" id="from" placeholder="Enter Text"></textarea>
+                <textarea name="" id="to" placeholder="Translation" readonly disabled></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row">
+                    <div class="icons">
+                        <i class="fa-solid fa-volume-high from"></i>
+                        <i class="fa-solid fa-copy from"></i>
+                    </div>
+                    <select name="" id="">
+                    </select>
+                </li>
+                <li class="exchange"><i class="fa-solid fa-arrow-right-arrow-left"></i></li>
+                <li class="row">
+                    <select name="" id="">
+                    </select>
+                    <div class="icons">
+                        <i class="fa-solid fa-copy to"></i>
+                        <i class="fa-solid fa-volume-high to"></i>
+                    </div>
+                </li>
+            </ul>
+            <button id="translateBtn">Translate Text</button>
+        </div>
+    </div>
+    <script src="countries.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
